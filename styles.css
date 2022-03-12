@@ -1,0 +1,47 @@
+body {
+background-color: rgb(255, 240, 32); }
+
+marquee {
+background-color: #9f3; width: 3580; }
+
+div.color-wave {
+    -webkit-animation: color 5s ease-in-out infinite;
+    -moz-animation: color 5s ease-in-out infinite;
+    -o-animation: color 5s ease-in-out infinite;
+    animation: color 5s ease-in-out infinite;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 3590px;
+    }
+    @keyframes color {
+            0%{background-color: #666633;}
+            10%{background-color: #739900;}
+            20%{background-color: #739900;}
+            30%{background-color: #cccc00;}
+            40%{background-color: #cc8800;}
+            50%{background-color: #ff3333;}
+            60%{background-color: #cc8800;}
+            70%{background-color: #cccc00;}
+            80%{background-color: #739900;}
+            90%{background-color: #739900;}
+            100%{background-color: #666633;}
+        
+        }
+        @-webkit-keyframes color {
+                0%{background-color: #666633;}
+                10%{background-color: #739900;}
+                20%{background-color: #739900;}
+                30%{background-color: #cccc00;}
+                40%{background-color: #cc8800;}
+                50%{background-color: #ff3333;}
+                60%{background-color: #cc8800;}
+                70%{background-color: #cccc00;}
+                80%{background-color: #739900;}
+                90%{background-color: #739900;}
+                100%{background-color: #666633;}
+        }
+figure{
+    margin: 0;
+}
+
+        
